@@ -1,0 +1,134 @@
+# ============================================
+# Blockchain Certificate Project .gitignore
+# ============================================
+
+# Project specific
+web-dev/server/wallet/
+playground/
+test.js
+
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+jspm_packages/
+bower_components/
+/.pnp
+.pnp.js
+
+# ============================================
+# Environment & Configuration
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# ============================================
+# Build & Distribution
+# ============================================
+build/
+dist/
+coverage/
+.next
+.nuxt
+.cache/
+.vuepress/dist
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============================================
+# Runtime & Process Files
+# ============================================
+pids
+*.pid
+*.seed
+*.pid.lock
+.tern-port
+
+# ============================================
+# Test Coverage
+# ============================================
+.nyc_output
+lib-cov
+*.lcov
+
+# ============================================
+# Cache & Temporary Files
+# ============================================
+.npm
+.eslintcache
+.node_repl_history
+.grunt
+.fusebox/
+.dynamodb/
+.serverless/
+
+# ============================================
+# Package Files
+# ============================================
+*.tgz
+.yarn-integrity
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+typings/
+
+# ============================================
+# Hyperledger Composer
+# ============================================
+*.bna
+*.card
+
+# ============================================
+# Diagnostic Reports
+# ============================================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ============================================
+# Operating System
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# IDEs & Editors
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.vscode-test
+*.code-workspace
+.history
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+cmake-build-*/
+
+# IntelliJ specific
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
