@@ -44,6 +44,11 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo systemctl start mongod
 sudo systemctl enable mongod
+# truy cập shell
+mongosh
+# tạo database với tên blockchaincertificate
+use blockchaincertificate
+# có trường hợp phải tạo thêm một bản ghi (nếu không thoát shell là mất db)
 ```
 ### 4. Cài đặt hyperledger fabric
 - Recommendation project struture
